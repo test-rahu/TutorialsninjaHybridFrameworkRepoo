@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="180.446" tests="14" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="344.434" tests="14" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\Rahul Rathore\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Rahul Rathore\AppData\Local\Temp\surefire7128806704266923573\surefirebooter-20231204183422212_3.jar C:\Users\Rahul Rathore\AppData\Local\Temp\surefire7128806704266923573 2023-12-04T18-34-21_814-jvmRun1 surefire-20231204183422212_1tmp surefire_0-20231204183422212_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Rahul Rathore\AppData\Local\Temp\surefire16317460626738468265\surefirebooter-20231207000901344_3.jar C:\Users\Rahul Rathore\AppData\Local\Temp\surefire16317460626738468265 2023-12-07T00-09-00_646-jvmRun1 surefire-20231207000901344_1tmp surefire_0-20231207000901344_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Rahul Rathore\eclipse-workspace\TutorialNinjaProj\target\test-classes;C:\Users\Rahul Rathore\eclipse-workspace\TutorialNinjaProj\target\classes;C:\Users\Rahul Rathore\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\Rahul Rathore\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Rahul Rathore\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Rahul Rathore\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Rahul Rathore\.m2\repository\org\seleniumhq\selenium\selenium-java\4.6.0\selenium-java-4.6.0.jar;C:\Users\Rahul Rathore\.m2\repository\org\seleniumhq\selenium\selenium-api\4.6.0\selenium-api-4.6.0.jar;C:\Users\Rahul Rathore\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.6.0\selenium-chrome-driver-4.6.0.jar;C:\Users\Rahul Rathore\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Rahul Rathore\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Rahul Rathore\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Rahul Rathore\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Rahul Rathore\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Rahul Rathore\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Rahul Rathore\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Rahul Rathore\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Rahul Rathore\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Rahul Rathore\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Rahul Rathore\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.6.0\selenium-chromium-driver-4.6.0.jar;C:\Users\Rahul Rathore\.m2\repository\org\seleniumhq\selenium\selenium-json\4.6.0\selenium-json-4.6.0.jar;C:\Users\Rahul Rathore\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v105\4.6.0\selenium-devtools-v105-4.6.0.jar;C:\Users\Rahul Rathore\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v106\4.6.0\selenium-devtools-v106-4.6.0.jar;C:\Users\Rahul Rathore\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v107\4.6.0\selenium-devtools-v107-4.6.0.jar;C:\Users\Rahul Rathore\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.6.0\selenium-devtools-v85-4.6.0.jar;C:\Users\Rahul Rathore\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.6.0\selenium-edge-driver-4.6.0.jar;C:\Users\Rahul Rathore\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.6.0\selenium-firefox-driver-4.6.0.jar;C:\Users\Rahul Rathore\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.6.0\selenium-ie-driver-4.6.0.jar;C:\Users\Rahul Rathore\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.6.0\selenium-remote-driver-4.6.0.jar;C:\Users\Rahul Rathore\.m2\repository\io\netty\netty-buffer\4.1.84.Final\netty-buffer-4.1.84.Final.jar;C:\Users\Rahul Rathore\.m2\repository\io\netty\netty-codec-http\4.1.84.Final\netty-codec-http-4.1.84.Final.jar;C:\Users\Rahul Rathore\.m2\repository\io\netty\netty-codec\4.1.84.Final\netty-codec-4.1.84.Final.jar;C:\Users\Rahul Rathore\.m2\repository\io\netty\netty-handler\4.1.84.Final\netty-handler-4.1.84.Final.jar;C:\Users\Rahul Rathore\.m2\repository\io\netty\netty-common\4.1.84.Final\netty-common-4.1.84.Final.jar;C:\Users\Rahul Rathore\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.84.Final\netty-transport-classes-epoll-4.1.84.Final.jar;C:\Users\Rahul Rathore\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.84.Final\netty-transport-classes-kqueue-4.1.84.Final.jar;C:\Users\Rahul Rathore\.m2\repository\io\netty\netty-transport-native-epoll\4.1.84.Final\netty-transport-native-epoll-4.1.84.Final.jar;C:\Users\Rahul Rathore\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.84.Final\netty-transport-native-kqueue-4.1.84.Final.jar;C:\Users\Rahul Rathore\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.84.Final\netty-transport-native-unix-common-4.1.84.Final.jar;C:\Users\Rahul Rathore\.m2\repository\io\netty\netty-transport\4.1.84.Final\netty-transport-4.1.84.Final.jar;C:\Users\Rahul Rathore\.m2\repository\io\netty\netty-resolver\4.1.84.Final\netty-resolver-4.1.84.Final.jar;C:\Users\Rahul Rathore\.m2\repository\io\opentelemetry\opentelemetry-api\1.19.0\opentelemetry-api-1.19.0.jar;C:\Users\Rahul Rathore\.m2\repository\io\opentelemetry\opentelemetry-context\1.19.0\opentelemetry-context-1.19.0.jar;C:\Users\Rahul Rathore\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.19.0\opentelemetry-exporter-logging-1.19.0.jar;C:\Users\Rahul Rathore\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.19.0\opentelemetry-sdk-metrics-1.19.0.jar;C:\Users\Rahul Rathore\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.19.0-alpha\opentelemetry-sdk-logs-1.19.0-alpha.jar;C:\Users\Rahul Rathore\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.19.0-alpha\opentelemetry-api-logs-1.19.0-alpha.jar;C:\Users\Rahul Rathore\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.19.0\opentelemetry-sdk-common-1.19.0.jar;C:\Users\Rahul Rathore\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.19.0\opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar;C:\Users\Rahul Rathore\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.19.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar;C:\Users\Rahul Rathore\.m2\repository\io\opentelemetry\opentelemetry-exporter-common\1.19.0\opentelemetry-exporter-common-1.19.0.jar;C:\Users\Rahul Rathore\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.19.0\opentelemetry-sdk-trace-1.19.0.jar;C:\Users\Rahul Rathore\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.19.0\opentelemetry-sdk-1.19.0.jar;C:\Users\Rahul Rathore\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.19.0-alpha\opentelemetry-semconv-1.19.0-alpha.jar;C:\Users\Rahul Rathore\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Rahul Rathore\.m2\repository\net\bytebuddy\byte-buddy\1.12.18\byte-buddy-1.12.18.jar;C:\Users\Rahul Rathore\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Rahul Rathore\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Rahul Rathore\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Rahul Rathore\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Rahul Rathore\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Rahul Rathore\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Rahul Rathore\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Rahul Rathore\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Rahul Rathore\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Rahul Rathore\.m2\repository\org\seleniumhq\selenium\selenium-http\4.6.0\selenium-http-4.6.0.jar;C:\Users\Rahul Rathore\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\Rahul Rathore\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.6.0\selenium-manager-4.6.0.jar;C:\Users\Rahul Rathore\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.6.0\selenium-safari-driver-4.6.0.jar;C:\Users\Rahul Rathore\.m2\repository\org\seleniumhq\selenium\selenium-support\4.6.0\selenium-support-4.6.0.jar;C:\Users\Rahul Rathore\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Rahul Rathore\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Rahul Rathore\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Rahul Rathore\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Rahul Rathore\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Rahul Rathore\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\Rahul Rathore\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Rahul Rathore\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\Rahul Rathore\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\Rahul Rathore\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Rahul Rathore\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\Rahul Rathore\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Rahul Rathore\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Rahul Rathore\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Rahul Rathore\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Rahul Rathore\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Rahul Rathore\AppData\Local\Temp\surefire7128806704266923573\surefirebooter-20231204183422212_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Rahul Rathore\AppData\Local\Temp\surefire16317460626738468265\surefirebooter-20231207000901344_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.6+10"/>
@@ -59,26 +59,26 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="VerifiRegisterAccount" classname="com.tutorialsninja.qa.testcases.RegisterPageTest" time="1.928">
+  <testcase name="VerifiRegisterAccount" classname="com.tutorialsninja.qa.testcases.RegisterPageTest" time="1.861">
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-1701695069255	geckodriver	INFO	Listening on 127.0.0.1:45354
-1701695070166	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "19073" "--remote ... alhost:19073/,http://[::1]:19073/" "-no-remote" "-profile" "C:\\Users\\RAHULR~1\\AppData\\Local\\Temp\\rust_mozprofileo9Csmy"
+1701887948410	geckodriver	INFO	Listening on 127.0.0.1:44493
+1701887949363	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "7969" "--remote- ... ocalhost:7969/,http://[::1]:7969/" "-no-remote" "-profile" "C:\\Users\\RAHULR~1\\AppData\\Local\\Temp\\rust_mozprofileQwiw0P"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1701695071955	Marionette	INFO	Marionette enabled
+1701887951019	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1701695072237	Marionette	INFO	Listening on port 54803
-Read port: 54803
-WebDriver BiDi listening on ws://127.0.0.1:19073
-1701695072421	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:19073/devtools/browser/f62d5280-6c51-46c4-93f3-1534df2e2cb2
+1701887951429	Marionette	INFO	Listening on port 51662
+Read port: 51662
+WebDriver BiDi listening on ws://127.0.0.1:7969
+1701887951661	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:7969/devtools/browser/6c00aa32-1fa3-46a7-81dc-932060dc7792
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://tutorialsninja.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://tutorialsninja.com."
 ]]></system-err>
   </testcase>
-  <testcase name="veriRegisterPagewithAllMandotoryFields" classname="com.tutorialsninja.qa.testcases.RegisterPageTest" time="0.436">
+  <testcase name="veriRegisterPagewithAllMandotoryFields" classname="com.tutorialsninja.qa.testcases.RegisterPageTest" time="0.439">
     <failure message="Keys to send should be a not null CharSequence" type="java.lang.IllegalArgumentException"><![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
 	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
 	at com.tutorialsninja.qa.testcases.RegisterPageTest.veriRegisterPagewithAllMandotoryFields(RegisterPageTest.java:88)
@@ -117,225 +117,225 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 ]]></failure>
     <system-out><![CDATA[ScreenShot Taken
 ]]></system-out>
-    <system-err><![CDATA[1701695083593	geckodriver	INFO	Listening on 127.0.0.1:34521
-1701695083688	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "29635" "--remote ... alhost:29635/,http://[::1]:29635/" "-no-remote" "-profile" "C:\\Users\\RAHULR~1\\AppData\\Local\\Temp\\rust_mozprofilezMNLJL"
+    <system-err><![CDATA[1701887975245	geckodriver	INFO	Listening on 127.0.0.1:26839
+1701887975374	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "17228" "--remote ... alhost:17228/,http://[::1]:17228/" "-no-remote" "-profile" "C:\\Users\\RAHULR~1\\AppData\\Local\\Temp\\rust_mozprofile8jAZRV"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1701695084789	Marionette	INFO	Marionette enabled
+1701887977152	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1701695085075	Marionette	INFO	Listening on port 55161
-WebDriver BiDi listening on ws://127.0.0.1:29635
-Read port: 55161
-1701695085535	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:29635/devtools/browser/27a27902-a587-402d-b756-8a2ec46ac4ad
+1701887977607	Marionette	INFO	Listening on port 52417
+Read port: 52417
+WebDriver BiDi listening on ws://127.0.0.1:17228
+1701887977836	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1701887982237	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+DevTools listening on ws://127.0.0.1:17228/devtools/browser/cf310b82-cecc-4f8e-963a-a0cdaccca1b9
 ]]></system-err>
   </testcase>
-  <testcase name="VerifyRegisterpagewithExistingEmail" classname="com.tutorialsninja.qa.testcases.RegisterPageTest" time="1.856">
-    <system-err><![CDATA[1701695093921	geckodriver	INFO	Listening on 127.0.0.1:40341
-1701695094029	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "42201" "--remote ... alhost:42201/,http://[::1]:42201/" "-no-remote" "-profile" "C:\\Users\\RAHULR~1\\AppData\\Local\\Temp\\rust_mozprofileL1I3C3"
+  <testcase name="VerifyRegisterpagewithExistingEmail" classname="com.tutorialsninja.qa.testcases.RegisterPageTest" time="1.766">
+    <system-err><![CDATA[1701887996000	geckodriver	INFO	Listening on 127.0.0.1:19634
+1701887996060	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "15743" "--remote ... alhost:15743/,http://[::1]:15743/" "-no-remote" "-profile" "C:\\Users\\RAHULR~1\\AppData\\Local\\Temp\\rust_mozprofilekuN2xT"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1701695095253	Marionette	INFO	Marionette enabled
+1701887997877	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1701695095721	Marionette	INFO	Listening on port 55487
-Read port: 55487
-WebDriver BiDi listening on ws://127.0.0.1:42201
-1701695095958	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:42201/devtools/browser/69cacc42-10d6-41b2-b6a5-b950bc9743e7
-1701695102100	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://tutorialsninja.com."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://tutorialsninja.com."
-]]></system-err>
-  </testcase>
-  <testcase name="verifyRegisterpageWithoutFillingAnyDetails" classname="com.tutorialsninja.qa.testcases.RegisterPageTest" time="0.893">
-    <system-err><![CDATA[1701695106544	geckodriver	INFO	Listening on 127.0.0.1:19049
-1701695106652	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "38921" "--remote ... alhost:38921/,http://[::1]:38921/" "-no-remote" "-profile" "C:\\Users\\RAHULR~1\\AppData\\Local\\Temp\\rust_mozprofilem5LPjm"
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1701695108107	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1701695108509	Marionette	INFO	Listening on port 55936
-WebDriver BiDi listening on ws://127.0.0.1:38921
-Read port: 55936
-1701695108961	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:38921/devtools/browser/7a8de820-fe63-4c24-b1c6-1a5da8fbeeb8
+1701887998391	Marionette	INFO	Listening on port 53127
+WebDriver BiDi listening on ws://127.0.0.1:15743
+Read port: 53127
+1701887998708	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:15743/devtools/browser/ffec94b8-74ab-4158-acf0-df43ac367779
+1701888009021	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1701888027911	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://tutorialsninja.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://tutorialsninja.com."
 ]]></system-err>
   </testcase>
-  <testcase name="verifyLogincredential[rahul0396rathod@gmail.com, Test@123](1)" classname="com.tutorialsninja.qa.testcases.LoginTest" time="1.238">
-    <system-err><![CDATA[1701695117601	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
-1701695118486	geckodriver	INFO	Listening on 127.0.0.1:45277
-1701695118542	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "34553" "--remote ... alhost:34553/,http://[::1]:34553/" "-no-remote" "-profile" "C:\\Users\\RAHULR~1\\AppData\\Local\\Temp\\rust_mozprofileWP2J0y"
+  <testcase name="verifyRegisterpageWithoutFillingAnyDetails" classname="com.tutorialsninja.qa.testcases.RegisterPageTest" time="1.24">
+    <system-err><![CDATA[1701888030187	geckodriver	INFO	Listening on 127.0.0.1:7938
+1701888030243	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "16908" "--remote ... alhost:16908/,http://[::1]:16908/" "-no-remote" "-profile" "C:\\Users\\RAHULR~1\\AppData\\Local\\Temp\\rust_mozprofileLc53U7"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1701695119791	Marionette	INFO	Marionette enabled
+1701888031860	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1701695120236	Marionette	INFO	Listening on port 56724
-WebDriver BiDi listening on ws://127.0.0.1:34553
-Read port: 56724
-1701695120693	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:34553/devtools/browser/a9e6c038-2359-460f-832b-9aff26df0094
-1701695127097	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1701888032316	Marionette	INFO	Listening on port 54052
+WebDriver BiDi listening on ws://127.0.0.1:16908
+Read port: 54052
+1701888032881	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:16908/devtools/browser/3aba0d36-5f02-45d3-88f3-b260b0c9a398
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://tutorialsninja.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://tutorialsninja.com."
 ]]></system-err>
   </testcase>
-  <testcase name="verifyLogincredential[rr0699832@gmail.com, Test@123](2)" classname="com.tutorialsninja.qa.testcases.LoginTest" time="1.331">
-    <system-err><![CDATA[1701695128693	Marionette	INFO	Stopped listening on port 56724
+  <testcase name="verifyLogincredential[rahul0396rathod@gmail.com, Test@123](1)" classname="com.tutorialsninja.qa.testcases.LoginTest" time="1.624">
+    <system-err><![CDATA[1701888053697	geckodriver	INFO	Listening on 127.0.0.1:41072
+1701888053780	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "11852" "--remote ... alhost:11852/,http://[::1]:11852/" "-no-remote" "-profile" "C:\\Users\\RAHULR~1\\AppData\\Local\\Temp\\rust_mozprofileVO6wV4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701888055330	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701888055762	Marionette	INFO	Listening on port 54941
+WebDriver BiDi listening on ws://127.0.0.1:11852
+Read port: 54941
+1701888056254	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:11852/devtools/browser/fe589997-ec69-428e-aee3-0b91e63eacf3
+1701888061934	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://tutorialsninja.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://tutorialsninja.com."
+]]></system-err>
+  </testcase>
+  <testcase name="verifyLogincredential[rr0699832@gmail.com, Test@123](2)" classname="com.tutorialsninja.qa.testcases.LoginTest" time="1.398">
+    <system-err><![CDATA[1701888076716	Marionette	INFO	Stopped listening on port 54941
 Dynamically enable window occlusion 1
-1701695131414	geckodriver	INFO	Listening on 127.0.0.1:18528
-1701695131500	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "47119" "--remote ... alhost:47119/,http://[::1]:47119/" "-no-remote" "-profile" "C:\\Users\\RAHULR~1\\AppData\\Local\\Temp\\rust_mozprofilensDnup"
+1701888080338	geckodriver	INFO	Listening on 127.0.0.1:12226
+1701888080401	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "42648" "--remote ... alhost:42648/,http://[::1]:42648/" "-no-remote" "-profile" "C:\\Users\\RAHULR~1\\AppData\\Local\\Temp\\rust_mozprofilemgEMcK"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1701695132639	Marionette	INFO	Marionette enabled
+1701888081891	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1701695132931	Marionette	INFO	Listening on port 57003
-WebDriver BiDi listening on ws://127.0.0.1:47119
-Read port: 57003
-1701695133293	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:47119/devtools/browser/00781823-fa80-4d0a-9c54-9ecf252f4b66
-1701695138203	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1701888082366	Marionette	INFO	Listening on port 55715
+Read port: 55715
+WebDriver BiDi listening on ws://127.0.0.1:42648
+1701888082593	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:42648/devtools/browser/a367c52b-8daa-49b9-a0ae-4cbd1ae16c26
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://tutorialsninja.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://tutorialsninja.com."
 ]]></system-err>
   </testcase>
-  <testcase name="verifyLogincredential[rr0699832@gmail.com, Test@123](3)" classname="com.tutorialsninja.qa.testcases.LoginTest" time="1.181">
-    <system-err><![CDATA[1701695141749	Marionette	INFO	Stopped listening on port 57003
+  <testcase name="verifyLogincredential[rr0699832@gmail.com, Test@123](3)" classname="com.tutorialsninja.qa.testcases.LoginTest" time="1.475">
+    <system-err><![CDATA[1701888097133	Marionette	INFO	Stopped listening on port 55715
 Dynamically enable window occlusion 1
-1701695144707	geckodriver	INFO	Listening on 127.0.0.1:27126
-1701695144798	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "40458" "--remote ... alhost:40458/,http://[::1]:40458/" "-no-remote" "-profile" "C:\\Users\\RAHULR~1\\AppData\\Local\\Temp\\rust_mozprofileHgYKlZ"
+1701888100550	geckodriver	INFO	Listening on 127.0.0.1:47494
+1701888100612	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "27779" "--remote ... alhost:27779/,http://[::1]:27779/" "-no-remote" "-profile" "C:\\Users\\RAHULR~1\\AppData\\Local\\Temp\\rust_mozprofilesIzQzL"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1701695145916	Marionette	INFO	Marionette enabled
+1701888102113	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1701695146215	Marionette	INFO	Listening on port 57319
-WebDriver BiDi listening on ws://127.0.0.1:40458
-Read port: 57319
-1701695146654	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:40458/devtools/browser/1a5eb685-a5ca-471e-9b44-6b76e0876df7
+1701888102540	Marionette	INFO	Listening on port 56322
+WebDriver BiDi listening on ws://127.0.0.1:27779
+Read port: 56322
+1701888103022	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:27779/devtools/browser/3d6ffb39-0fb8-4aca-b378-db4b5f4c66c4
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://tutorialsninja.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://tutorialsninja.com."
 ]]></system-err>
   </testcase>
-  <testcase name="verifyloginwithInvalidcredential" classname="com.tutorialsninja.qa.testcases.LoginTest" time="0.939">
-    <system-err><![CDATA[1701695154210	Marionette	INFO	Stopped listening on port 57319
+  <testcase name="verifyloginwithInvalidcredential" classname="com.tutorialsninja.qa.testcases.LoginTest" time="1.17">
+    <system-err><![CDATA[1701888118100	Marionette	INFO	Stopped listening on port 56322
 Dynamically enable window occlusion 1
-1701695157128	geckodriver	INFO	Listening on 127.0.0.1:19955
-1701695157207	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "6758" "--remote- ... ocalhost:6758/,http://[::1]:6758/" "-no-remote" "-profile" "C:\\Users\\RAHULR~1\\AppData\\Local\\Temp\\rust_mozprofiles5QYjg"
+1701888121643	geckodriver	INFO	Listening on 127.0.0.1:16081
+1701888121730	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "17597" "--remote ... alhost:17597/,http://[::1]:17597/" "-no-remote" "-profile" "C:\\Users\\RAHULR~1\\AppData\\Local\\Temp\\rust_mozprofile4QMvBE"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1701695158337	Marionette	INFO	Marionette enabled
+1701888123352	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1701695158751	Marionette	INFO	Listening on port 57589
-WebDriver BiDi listening on ws://127.0.0.1:6758
-Read port: 57589
-1701695159227	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:6758/devtools/browser/489ab65c-1b36-4388-a765-65ad48f8d311
+1701888123806	Marionette	INFO	Listening on port 56877
+WebDriver BiDi listening on ws://127.0.0.1:17597
+Read port: 56877
+1701888124455	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:17597/devtools/browser/0bbc508b-1052-4cab-a4b9-739738d9a70e
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://tutorialsninja.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://tutorialsninja.com."
 ]]></system-err>
   </testcase>
-  <testcase name="verifyloginwithInvalidemanilandvalidPass" classname="com.tutorialsninja.qa.testcases.LoginTest" time="1.095">
-    <system-err><![CDATA[1701695167019	Marionette	INFO	Stopped listening on port 57589
+  <testcase name="verifyloginwithInvalidemanilandvalidPass" classname="com.tutorialsninja.qa.testcases.LoginTest" time="1.093">
+    <system-err><![CDATA[1701888146736	Marionette	INFO	Stopped listening on port 56877
 Dynamically enable window occlusion 1
-1701695170141	geckodriver	INFO	Listening on 127.0.0.1:12985
-1701695170204	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "19353" "--remote ... alhost:19353/,http://[::1]:19353/" "-no-remote" "-profile" "C:\\Users\\RAHULR~1\\AppData\\Local\\Temp\\rust_mozprofilevx9uMS"
+1701888150202	geckodriver	INFO	Listening on 127.0.0.1:14107
+1701888150251	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "12070" "--remote ... alhost:12070/,http://[::1]:12070/" "-no-remote" "-profile" "C:\\Users\\RAHULR~1\\AppData\\Local\\Temp\\rust_mozprofilejOQp1D"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1701695171629	Marionette	INFO	Marionette enabled
+1701888151859	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1701695171967	Marionette	INFO	Listening on port 57931
-WebDriver BiDi listening on ws://127.0.0.1:19353
-Read port: 57931
-1701695172525	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:19353/devtools/browser/6b9c0050-7863-40e9-aa2a-f76e0d377a17
+1701888152343	Marionette	INFO	Listening on port 57573
+WebDriver BiDi listening on ws://127.0.0.1:12070
+Read port: 57573
+1701888152905	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:12070/devtools/browser/75537949-ff2d-4b38-8628-93298a4518af
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://tutorialsninja.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://tutorialsninja.com."
 ]]></system-err>
   </testcase>
-  <testcase name="VerifyLoginwithValidEmanilandinvalidPass" classname="com.tutorialsninja.qa.testcases.LoginTest" time="0.862">
-    <system-err><![CDATA[1701695180696	Marionette	INFO	Stopped listening on port 57931
+  <testcase name="VerifyLoginwithValidEmanilandinvalidPass" classname="com.tutorialsninja.qa.testcases.LoginTest" time="3.599">
+    <system-err><![CDATA[1701888167113	Marionette	INFO	Stopped listening on port 57573
 Dynamically enable window occlusion 1
-1701695183863	geckodriver	INFO	Listening on 127.0.0.1:18137
-1701695183916	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "12342" "--remote ... alhost:12342/,http://[::1]:12342/" "-no-remote" "-profile" "C:\\Users\\RAHULR~1\\AppData\\Local\\Temp\\rust_mozprofileTHhkmC"
+1701888170591	geckodriver	INFO	Listening on 127.0.0.1:14514
+1701888170641	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "3211" "--remote- ... ocalhost:3211/,http://[::1]:3211/" "-no-remote" "-profile" "C:\\Users\\RAHULR~1\\AppData\\Local\\Temp\\rust_mozprofileprRnzw"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1701695185066	Marionette	INFO	Marionette enabled
+1701888172099	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1701695185437	Marionette	INFO	Listening on port 58222
-WebDriver BiDi listening on ws://127.0.0.1:12342
-Read port: 58222
-1701695185915	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:12342/devtools/browser/341a855a-0390-4892-ae2b-1c423d4c70cd
+1701888172653	Marionette	INFO	Listening on port 58228
+WebDriver BiDi listening on ws://127.0.0.1:3211
+Read port: 58228
+1701888173119	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:3211/devtools/browser/9be62e67-f950-4e01-a454-095382bc01b0
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://tutorialsninja.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://tutorialsninja.com."
 ]]></system-err>
   </testcase>
-  <testcase name="verifyloginwithoutProvidingCredential" classname="com.tutorialsninja.qa.testcases.LoginTest" time="0.791">
-    <system-err><![CDATA[1701695193781	Marionette	INFO	Stopped listening on port 58222
+  <testcase name="verifyloginwithoutProvidingCredential" classname="com.tutorialsninja.qa.testcases.LoginTest" time="0.942">
+    <system-err><![CDATA[1701888194956	Marionette	INFO	Stopped listening on port 58228
 Dynamically enable window occlusion 1
-1701695196912	geckodriver	INFO	Listening on 127.0.0.1:18290
-1701695196971	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "19036" "--remote ... alhost:19036/,http://[::1]:19036/" "-no-remote" "-profile" "C:\\Users\\RAHULR~1\\AppData\\Local\\Temp\\rust_mozprofileE87GaJ"
+1701888198871	geckodriver	INFO	Listening on 127.0.0.1:2398
+1701888198929	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "5414" "--remote- ... ocalhost:5414/,http://[::1]:5414/" "-no-remote" "-profile" "C:\\Users\\RAHULR~1\\AppData\\Local\\Temp\\rust_mozprofileu3DBdn"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1701695198052	Marionette	INFO	Marionette enabled
+1701888200424	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1701695198578	Marionette	INFO	Listening on port 58663
-WebDriver BiDi listening on ws://127.0.0.1:19036
-Read port: 58663
-1701695199101	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:19036/devtools/browser/e5efd8f3-3153-4f3e-b4de-29ac7f5fb23d
+1701888200889	Marionette	INFO	Listening on port 59111
+WebDriver BiDi listening on ws://127.0.0.1:5414
+Read port: 59111
+1701888201399	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:5414/devtools/browser/09cdf6da-5713-4260-8368-b425ffc063b5
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://tutorialsninja.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://tutorialsninja.com."
 ]]></system-err>
   </testcase>
-  <testcase name="verifySearchwithValidProduct" classname="com.tutorialsninja.qa.testcases.SearchTest" time="0.853">
-    <system-err><![CDATA[1701695205921	Marionette	INFO	Stopped listening on port 58663
+  <testcase name="verifySearchwithValidProduct" classname="com.tutorialsninja.qa.testcases.SearchTest" time="1.41">
+    <system-err><![CDATA[1701888222131	Marionette	INFO	Stopped listening on port 59111
 Dynamically enable window occlusion 1
-1701695208969	geckodriver	INFO	Listening on 127.0.0.1:30641
-1701695209041	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "23644" "--remote ... alhost:23644/,http://[::1]:23644/" "-no-remote" "-profile" "C:\\Users\\RAHULR~1\\AppData\\Local\\Temp\\rust_mozprofileig7eEO"
+1701888225451	geckodriver	INFO	Listening on 127.0.0.1:28964
+1701888225526	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "47522" "--remote ... alhost:47522/,http://[::1]:47522/" "-no-remote" "-profile" "C:\\Users\\RAHULR~1\\AppData\\Local\\Temp\\rust_mozprofileNxVp3o"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1701695210195	Marionette	INFO	Marionette enabled
+1701888227180	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1701695210480	Marionette	INFO	Listening on port 59026
-WebDriver BiDi listening on ws://127.0.0.1:23644
-Read port: 59026
-1701695210855	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:23644/devtools/browser/2673894b-e9c6-4b26-9e06-6d689efbb6fc
+1701888227648	Marionette	INFO	Listening on port 59531
+WebDriver BiDi listening on ws://127.0.0.1:47522
+Read port: 59531
+1701888227938	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:47522/devtools/browser/a2a72457-c9c4-487f-a57d-3ecd9f2a4598
 ]]></system-err>
   </testcase>
-  <testcase name="verifySearchwithInvalidProduct" classname="com.tutorialsninja.qa.testcases.SearchTest" time="0.687">
-    <system-err><![CDATA[1701695217679	Marionette	INFO	Stopped listening on port 59026
+  <testcase name="verifySearchwithInvalidProduct" classname="com.tutorialsninja.qa.testcases.SearchTest" time="0.903">
+    <system-err><![CDATA[1701888241356	Marionette	INFO	Stopped listening on port 59531
 Dynamically enable window occlusion 1
-1701695221101	geckodriver	INFO	Listening on 127.0.0.1:45666
-1701695221145	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "8450" "--remote- ... ocalhost:8450/,http://[::1]:8450/" "-no-remote" "-profile" "C:\\Users\\RAHULR~1\\AppData\\Local\\Temp\\rust_mozprofile8NFG0u"
+1701888244752	geckodriver	INFO	Listening on 127.0.0.1:7180
+1701888244815	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "17807" "--remote ... alhost:17807/,http://[::1]:17807/" "-no-remote" "-profile" "C:\\Users\\RAHULR~1\\AppData\\Local\\Temp\\rust_mozprofiletsWJsM"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1701695222372	Marionette	INFO	Marionette enabled
+1701888246289	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1701695222872	Marionette	INFO	Listening on port 59535
-WebDriver BiDi listening on ws://127.0.0.1:8450
-Read port: 59535
-1701695223288	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:8450/devtools/browser/b6f8eeb0-a980-447a-b943-ad6ee446c3c0
+1701888246692	Marionette	INFO	Listening on port 59992
+WebDriver BiDi listening on ws://127.0.0.1:17807
+Read port: 59992
+1701888247220	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:17807/devtools/browser/905face5-5a22-4af1-ad01-c5fb435f605d
 ]]></system-err>
   </testcase>
-  <testcase name="verifySearchWithoutanyProduct" classname="com.tutorialsninja.qa.testcases.SearchTest" time="0.841">
-    <system-err><![CDATA[1701695229581	Marionette	INFO	Stopped listening on port 59535
+  <testcase name="verifySearchWithoutanyProduct" classname="com.tutorialsninja.qa.testcases.SearchTest" time="1.138">
+    <system-err><![CDATA[1701888261639	Marionette	INFO	Stopped listening on port 59992
 Dynamically enable window occlusion 1
-1701695232591	geckodriver	INFO	Listening on 127.0.0.1:46970
-1701695232629	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "33158" "--remote ... alhost:33158/,http://[::1]:33158/" "-no-remote" "-profile" "C:\\Users\\RAHULR~1\\AppData\\Local\\Temp\\rust_mozprofile1Q0lkh"
+1701888265205	geckodriver	INFO	Listening on 127.0.0.1:26656
+1701888265284	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "26425" "--remote ... alhost:26425/,http://[::1]:26425/" "-no-remote" "-profile" "C:\\Users\\RAHULR~1\\AppData\\Local\\Temp\\rust_mozprofileACT4lA"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1701695233641	Marionette	INFO	Marionette enabled
+1701888266952	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1701695233920	Marionette	INFO	Listening on port 60096
-WebDriver BiDi listening on ws://127.0.0.1:33158
-Read port: 60096
-1701695234277	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:33158/devtools/browser/3116b374-4fd1-4b98-8201-e951ad41ab3c
+1701888267481	Marionette	INFO	Listening on port 60335
+WebDriver BiDi listening on ws://127.0.0.1:26425
+Read port: 60335
+1701888267742	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:26425/devtools/browser/1aa87999-942a-4337-a5a3-ae0429c13933
 ]]></system-err>
   </testcase>
 </testsuite>
